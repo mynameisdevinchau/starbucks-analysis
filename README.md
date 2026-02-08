@@ -30,8 +30,7 @@ A Jupyter notebook project that analyzes customer behavior on the Starbucks Rewa
 └── README.md
 ```
 
-1) 
-macOS/Linux:
+1) macOS/Linux:
 ```
 python3 -m venv .venv
 source .venv/bin/activate
