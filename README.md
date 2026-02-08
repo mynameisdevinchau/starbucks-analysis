@@ -18,32 +18,26 @@ A Jupyter notebook project that analyzes customer behavior on the Starbucks Rewa
 
 ## Repo structure
 
+```text
+.
+├── data/
+│   ├── portfolio.csv
+│   ├── profile.csv
+│   └── transcript.csv
+├── notebooks/
+│   └── starbucks_restructured.ipynb
+├── requirements.txt
+└── README.md
+```
 
-The repository contains `data/`, `notebooks/`, and `requirements.txt` on the `main` branch. :contentReference[oaicite:1]{index=1}
-
-## Data
-
-This project expects the typical Starbucks Rewards app dataset used in the Udacity capstone-style project:
-- `portfolio.json` (offer metadata: type, channels, duration, difficulty, reward)
-- `profile.json` (customer demographics + membership date)
-- `transcript.json` (events: offer received/viewed/completed + transactions)
-
-Place them under `data/` if they aren’t already there.
-
-> Note: If you publish this repo, double check you’re allowed to redistribute the raw dataset. If not, keep `data/` out of Git and add a small “how to obtain data” note instead.
-
-## Setup
-
-### 1) Create and activate a virtual environment
-
-macOS / Linux:
-```bash
+1) 
+macOS/Linux:
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+Windows (PowerShell):
 ```
-Windows (Powershell)
-
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
