@@ -1,6 +1,6 @@
 # Starbucks Analysis
 
-A Jupyter notebook project that analyzes customer behavior on the Starbucks Rewards app, focusing on how different offers (type, duration, channels) move users through the funnel (received → viewed → completed), and what segments respond best.
+Starbucks distributes promotional offers to drive customer purchases, but it is not always clear which offers positive influence customer behavior. Some offers are viewed, some are completed quickly, and some are completely ignored. This project aims to evaluate the effectiveness of the different types of offers by tracking how customers move through the offer funnel (received → viewed → completed) and measuring where drop-off occurs. By linking offer events to customer attributes and timing, the project is going to try to identify which promotions perform best and which audiences respond most.
 
 ## What’s inside
 
@@ -30,23 +30,28 @@ A Jupyter notebook project that analyzes customer behavior on the Starbucks Rewa
 └── README.md
 ```
 
-1) macOS/Linux:
+1. macOS/Linux:
+
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+
 Windows (PowerShell):
+
 ```
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-2) Install dependencies
+2. Install dependencies
+
 ```
 pip install -r requirements.txt
 ```
 
-3) Run the notebook
+3. Run the notebook
+
 ```
 jupyter lab
 ```
